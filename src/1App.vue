@@ -7,6 +7,9 @@
 
     <header>
       <div class="logo">
+        <!-- <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M20 3.5C10.893 3.5 3.5 10.893 3.5 20C3.5 29.107 10.893 36.5 20 36.5C29.107 36.5 36.5 29.107 36.5 20C36.5 10.893 29.107 3.5 20 3.5ZM29.5 27.5C29.5 27.5 28 30 24.5 30C21 30 20 27.5 20 27.5V25L18 23.5V27.5C18 27.5 17 30 13.5 30C10 30 8.5 27.5 8.5 27.5L10.5 18L13 15.5L11.5 13.5L14.5 11L16.5 13.5L20 12L23.5 13.5L25.5 11L28.5 13.5L27 15.5L29.5 18L31.5 27.5Z" fill="white"/>
+        </svg> -->
         <img :src="AuraLogo" alt="" width="50px">
         <span>Aura<span class="highlight">:LifeStyle</span></span>
       </div>
@@ -64,88 +67,40 @@
           </div>
         </div>
       </section>
-
-      <h2 class="section-title">Explore Aura AI's Features</h2>
-
+<!--
       <section class="features">
-        <!-- Advanced AI Card -->
-        <div class="feature-card ai-card">
-          <div class="card-header">
-            <div class="feature-icon ai-icon">
-              <svg xmlns="http://www.w3.org/2000/svg"width="25" height="25"  viewBox="0 0 256 256"><rect width="256" height="256" fill="none"/><path d="M88,136a40,40,0,1,1-40,40v-6.73" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M168,136a40,40,0,1,0,40,40v-6.73" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M72,172H64A48,48,0,0,1,48,78.73V72a40,40,0,0,1,80,0V176" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M184,172h8a48,48,0,0,0,16-93.27V72a40,40,0,0,0-80,0" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M200,112h-4a28,28,0,0,1-28-28V80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/><path d="M56,112h4A28,28,0,0,0,88,84V80" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/></svg>
-            </div>
-            <h3>Advanced AI</h3>
-          </div>
-          <div class="card-body">
-            <p>Our cutting-edge neural networks adapt to your needs, providing personalized assistance and insights that evolve with you.</p>
-            <ul class="feature-list">
-              <li>Natural language processing</li>
-              <li>Contextual understanding</li>
-              <li>Personalized responses</li>
-            </ul>
-          </div>
-          <div class="card-footer">
-            <span class="learn-more">Learn more</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
+        <div class="feature">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
             </svg>
           </div>
+          <h3>Advanced AI</h3>
+          <p>Cutting-edge artificial intelligence that learns and adapts to your needs</p>
         </div>
 
-        <!-- Workspace Card -->
-        <div class="feature-card workspace-card">
-          <div class="card-header">
-            <div class="feature-icon workspace-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                <line x1="3" y1="9" x2="21" y2="9"></line>
-                <line x1="9" y1="21" x2="9" y2="9"></line>
-              </svg>
-            </div>
-            <h3>Workspace</h3>
-          </div>
-          <div class="card-body">
-            <p>Seamlessly organize your projects, tasks, and ideas in a customizable environment designed for maximum productivity.</p>
-            <ul class="feature-list">
-              <li>Customizable layouts</li>
-              <li>Real-time collaboration</li>
-              <li>Cross-device synchronization</li>
-            </ul>
-          </div>
-          <div class="card-footer">
-            <span class="learn-more">Learn more</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
+        <div class="feature">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
             </svg>
           </div>
+          <h3>Secure & Private</h3>
+          <p>Your data is encrypted and protected with enterprise-grade security</p>
         </div>
 
-        <!-- Plugins Card -->
-        <div class="feature-card plugins-card">
-          <div class="card-header">
-            <div class="feature-icon plugins-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
-              </svg>
-            </div>
-            <h3>Plugins</h3>
-          </div>
-          <div class="card-body">
-            <p>Extend Aura AI's capabilities with a growing ecosystem of plugins that integrate with your favorite tools and services.</p>
-            <ul class="feature-list">
-              <li>Third-party integrations</li>
-              <li>Custom workflow automation</li>
-              <li>Developer API access</li>
-            </ul>
-          </div>
-          <div class="card-footer">
-            <span class="learn-more">Learn more</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
+        <div class="feature">
+          <div class="feature-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M12 16v-4M12 8h.01"></path>
             </svg>
           </div>
+          <h3>24/7 Support</h3>
+          <p>Our team is always available to help with any questions or issues</p>
         </div>
-      </section>
+      </section> -->
+      <features/>
     </main>
 
     <div class="decorative-elements">
@@ -154,13 +109,7 @@
       </div>
     </div>
 
-    <footer>
-      <a href="https://thealphaones.com" target="_blank">
-      <div class="footer-content">
-          <p class="ita">TheAlphaOnes</p>
-        </div>
-      </a>
-    </footer>
+
   </div>
 </template>
 
@@ -168,7 +117,7 @@
 import { ref } from 'vue';
 
 import AuraLogo from "./assets/logo.svg"
-// import features from './components/features.vue';
+import features from './components/features.vue';
 const email = ref('');
 const emailError = ref('');
 const isSubmitting = ref(false);
@@ -228,11 +177,6 @@ const submitEmail = () => {
   --destructive-foreground: #f8f9fa;
   --ring: #a99cf6;
   --radius: 0.5rem;
-
-  /* Feature card specific colors */
-  --ai-color: #a99cf6;
-  --workspace-color: #64dfdf;
-  --plugins-color: #ff9e64;
 }
 
 * {
@@ -241,7 +185,6 @@ const submitEmail = () => {
   box-sizing: border-box;
   /* font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
   font-family: "K2D", sans-serif;
-
 }
 
 body {
@@ -273,7 +216,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px);
   background-size: 30px 30px;
   opacity: 0.5;
 }
@@ -335,7 +278,8 @@ main {
 
 .hero-content {
   text-align: center;
-  /* max-width: 800px; */
+  z-index: 10;
+  /* max-width: 900px; */
 }
 
 h1 {
@@ -421,12 +365,6 @@ h2 {
   font-weight: 700;
   letter-spacing: -0.025em;
   margin-bottom: 0.5rem;
-}
-
-.section-title {
-  text-align: center;
-  margin-bottom: 2.5rem;
-  font-size: 2.25rem;
 }
 
 .card p {
@@ -545,36 +483,24 @@ input::placeholder {
   color: #10b981;
 }
 
-/* Feature Cards */
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
-  margin-bottom: 4rem;
+  margin-top: 2rem;
 }
 
-.feature-card {
-  display: flex;
-  flex-direction: column;
-  background: var(--card);
-  border-radius: var(--radius);
-  border: 1px solid var(--border);
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  height: 100%;
-}
-
-.feature-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
-}
-
-.card-header {
+.feature {
   padding: 1.5rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  border-bottom: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  background: rgba(255, 255, 255, 0.03);
 }
 
 .feature-icon {
@@ -583,116 +509,21 @@ input::placeholder {
   justify-content: center;
   width: 48px;
   height: 48px;
-  border-radius: 12px;
-  flex-shrink: 0;
-}
-
-.ai-icon {
   background: rgba(169, 156, 246, 0.1);
-  color: var(--ai-color);
+  color: var(--primary);
+  border-radius: 50%;
+  margin-bottom: 1rem;
 }
 
-.workspace-icon {
-  background: rgba(100, 223, 223, 0.1);
-  color: var(--workspace-color);
-}
-
-.plugins-icon {
-  background: rgba(255, 158, 100, 0.1);
-  color: var(--plugins-color);
-}
-
-.card-header h3 {
+h3 {
   font-size: 1.25rem;
   font-weight: 600;
-  margin: 0;
+  margin-bottom: 0.5rem;
 }
 
-.card-body {
-  padding: 1.5rem;
-  flex: 1;
-}
-
-.card-body p {
+.feature p {
   color: var(--muted-foreground);
-  margin-bottom: 1.25rem;
-}
-
-.feature-list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.feature-list li {
-  padding: 0.5rem 0;
-  color: var(--muted-foreground);
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.feature-list li::before {
-  content: "•";
-  display: inline-block;
-  margin-right: 0.5rem;
-}
-
-.ai-card .feature-list li::before {
-  color: var(--ai-color);
-}
-
-.workspace-card .feature-list li::before {
-  color: var(--workspace-color);
-}
-
-.plugins-card .feature-list li::before {
-  color: var(--plugins-color);
-}
-
-.card-footer {
-  padding: 1.25rem 1.5rem;
-  border-top: 1px solid var(--border);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-  display: none;
-}
-
-.card-footer:hover {
-  background-color: rgba(255, 255, 255, 0.03);
-}
-
-.ai-card .card-footer {
-  color: var(--ai-color);
-}
-
-.workspace-card .card-footer {
-  color: var(--workspace-color);
-}
-
-.plugins-card .card-footer {
-  color: var(--plugins-color);
-}
-
-.learn-more {
-  font-weight: 500;
-  font-size: 0.875rem;
-}
-
-/* Border accents for each card */
-.ai-card {
-  border-top: 3px solid var(--ai-color);
-}
-
-.workspace-card {
-  border-top: 3px solid var(--workspace-color);
-}
-
-.plugins-card {
-  border-top: 3px solid var(--plugins-color);
+  font-size: 0.9375rem;
 }
 
 .decorative-elements {
@@ -728,9 +559,9 @@ a {
   font-size: 40px;
   font-weight: 500;
   letter-spacing: 0.5px;
+
   color: var(--muted-foreground);
   transition: all ease-in-out 300ms;
-
 }
 
 .footer-content:hover{
@@ -814,10 +645,6 @@ a {
 
   .features {
     grid-template-columns: 1fr;
-  }
-
-  .section-title {
-    font-size: 1.75rem;
   }
 }
 </style>
